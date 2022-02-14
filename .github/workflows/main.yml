@@ -32,7 +32,7 @@ jobs:
       - name: clone sast repo
         uses: actions/checkout@v2
         with:
-          repository: TestGithubActions
+          repository: sast
           path: sast
 
       - name: clone current repo
